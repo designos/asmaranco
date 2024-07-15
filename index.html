@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--// Google Fonts //-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--// Bootstrap //-->
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/413dc40d74.js" crossorigin="anonymous"></script>
+    <!--// Fontawesome //-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="x-icon" href="/Images/icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Asmaran Company</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <a href="#"><img src="./Images/Logo-01.png" class="navbar-brand" href="#" alt="logo"
+                            style="width: 220px;"></img></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <a href="#"><img src="./Images/Logo-01.png" class="offcanvas-title"
+                                    id="offcanvasNavbarLabel" style="width: 200px;" alt="logo"></img></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li id="sections" class="nav-item">
+                                    <a class="nav-link active" data-i18n="activity" aria-current="page"
+                                        href="#activity">النشاط</a>
+                                </li>
+                                <li id="sections" class="nav-item">
+                                    <a class="nav-link active" data-i18n="vision" aria-current="page"
+                                        href="#vision">الرؤية</a>
+                                </li>
+                                <li id="sections" class="nav-item">
+                                    <a class="nav-link active" data-i18n="whyUs" aria-current="page" href="#why-us">حول
+                                        الشركة</a>
+                                </li>
+                                <li id="sections" class="nav-item">
+                                    <a class="nav-link active" data-i18n="contactUs" aria-current="page"
+                                        href="#contact-us">تواصل معنا</a>
+                                </li>
+                                <li id="sections" class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        <select name="" id="language-select">
+                                            <option data-i18n="arabic" value="ar"><a href="">
+                                                    العربية
+                                                </a></option>
+                                            <option data-i18n="english" value="en"><a href="">
+                                                    الإنجليزية
+                                                </a></option>
+                                        </select>
+                                    </a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--// Header //-->
+
+    <div class="main-body">
+
+        <div class="carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="landing-page-photo-1" src="/Images/Banner-03.jpg" class="d-block w-100"
+                            alt="photo">
+                    </div>
+ 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="Establishment">
+
+            <div class="container">
+                <div class="columns">
+                    <div class="col1">
+                        <img data-aos="fade-up" src="Images/1.jpg" alt="photo">
+                    </div>
+
+                    <div class="col2" id="col2">
+                        <span>
+                            <p data-aos="fade-up" data-i18n="establishment">قيادة الابتكار في صناعة البيتومين</p>
+                        </span>
+                        <p data-aos="fade-up" id="max-width" id="establishment-desc" data-i18n="establishmentDesc">
+                            نعمل في شركة اسمران على تطوير تقنيات متقدمة لضمان جودة المنتجات واستدامتها</p>
+
+                        <span>
+                            <p data-aos="fade-up" data-i18n="industry">شراكة من أجل مستقبل مستدام</p>
+                        </span>
+
+                        <p data-aos="fade-up" id="max-width" data-i18n="industryDesc">
+                            نسعى لتعزيز شراكاتنا لتقديم حلول فعالة وصديقة للبيئة في مجال البيتومين
+                        </p>
+                        <span>
+                            <p data-aos="fade-up" data-i18n="globalPresence">
+                                التزامنا بالجودة والتميز
+                            </p>
+                        </span>
+                        <p data-aos="fade-up" id="max-width" data-i18n="globalPresenceDesc">
+                            نلتزم بتقديم أفضل المنتجات والخدمات لتلبية احتياجات عملائنا بأعلى معايير الجودة
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about-company">
+
+            <div class="container">
+                <div class="about-company-title">
+                    <i data-aos="fade-up" class="fa-solid fa-building"></i>
+                    <h1 data-aos="fade-up" data-i18n="aboutCompany">نبذة عن الشركة</h1>
+                    <div data-aos="fade-up" class="outline"></div>
+                    <p data-aos="fade-up" data-i18n="aboutCompanyDesc">
+                        شركة اسمران لصناعة البيتومين هي شركة رائدة في مجال تصنيع وتسويق منتجات البيتومين، وتعتبر من الشركات المتميزة في هذا المجال. تأسست الشركة بهدف تقديم حلول مبتكرة وفعالة للبنية التحتية والطرق، مع الالتزام بأعلى معايير الجودة والاستدامة. تعتمد شركة اسمران على تقنيات متقدمة وفرق عمل متخصصة لتلبية احتياجات السوق المحلي والعالمي، وتسعى دائماً لتعزيز شراكاتها وتحقيق رضا عملائها من خلال منتجات ذات جودة عالية وخدمات متميزة
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="photos-txt" id="activity">
+            <div class="sections">
+
+                <div data-aos="fade-up" class="sec1" style="margin-bottom: 150px;">
+                    <div class="img">
+                        <img style="box-shadow: 0 0 10px rgba(121, 121, 121, 0.2);" src="Images/2-01.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="txt">
+                        <span>
+                            <p class="ProductsAndServices" data-i18n="ProductsAndServices">
+                                تصنيع وتوريد البيتومين 
+                            </p>
+                        </span>
+                        <p class="ProductsAndServicesDesc" data-i18n="ProductsAndServicesDesc">
+                            تلتزم شركة اسمران بتوفير بيتومين عالي الجودة لدعم مشاريع البنية التحتية المختلفة. من خلال استخدام أحدث التقنيات ومعايير الجودة العالمية، نضمن توفير منتجات تساهم في تطوير الطرق، والمطارات، والمنشآت الصناعية، مما يعزز من استدامة وكفاءة هذه المشاريع
+                        </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" class="sec">
+                    <div class="img">
+                        <img style="box-shadow: 0 0 10px rgba(121, 121, 121, 0.2);" src="Images/3-01.jpg"
+                            alt="photo">
+                    </div>
+                    <div class="txt">
+                        <span>
+                            <p class="QualityAndCommitment" data-i18n="QualityAndCommitment">
+                                الإنتاج والتوزيع
+                            </p>
+                        </span>
+                        <p class="QualityAndCommitmentDesc" data-i18n="QualityAndCommitmentDesc">
+                            تقوم شركة اسمران بإنتاج مجموعة واسعة من المشتقات النفطية التي تلبي متطلبات السوق المحلي والعالمي. بفضل شبكتنا الواسعة من التوزيع وفريقنا المتخصص، نحرص على تقديم حلول مبتكرة وفعالة لتلبية احتياجات عملائنا في مختلف القطاعات، مع الالتزام بالمعايير البيئية والصحية
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="vision" id="vision">
+            <div class="container">
+
+                <div data-aos="fade-up" class="about-company-title">
+                    <i class="fa-solid fa-eye"></i>
+                    <h1 data-i18n="vision">الــرؤية</h1>
+                    <div class="outline"></div>
+                    <p data-i18n="visionDesc">
+
+                        تسعى شركة اسمران لصناعة البيتومين والمشتقات النفطية إلى تحقيق التميز والريادة في مجال صناعة البيتومين والمشتقات النفطية. من خلال التزامنا بالجودة والابتكار والاستدامة، نعمل على تلبية احتياجات عملائنا وتحقيق قيمة مضافة في الأسواق المحلية والعالمية
+
+                        </p>
+                </div>
+
+            </div>
+
+            <div data-aos="fade-up" class="cards">
+
+                <div class="container">
+                    <div class="card" style="background-color: #dddddd;">
+                        <i class="fa-solid fa-handshake"></i>
+                        <h2 data-i18n="ClientsAndPartners">التميز والابتكار</h2>
+                        <p data-i18n="ClientsAndPartnersDesc">
+
+                            نؤمن بأن النجاح المستدام يتحقق عبر حلول مبتكرة وفعالة. نستثمر في البحث والتطوير والتكنولوجيا لتعزيز عملياتنا وضمان أعلى جودة لمنتجاتنا، لتلبية متطلبات مشاريع البنية التحتية والنقل والطاقة بكفاءة
+
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-seedling"></i>
+                        <h2 data-i18n="SustainabilityAndEnvironment">الاستدامة والبيئة</h2>
+                        <p data-i18n="SustainabilityAndEnvironmentDesc">
+
+                            نحن في شركة اسمران نلتزم بالاستدامة البيئية والمسؤولية الاجتماعية، ونبني علاقات مستدامة مع شركائنا وعملائنا بشفافية ونزاهة، لتعزيز مكانتنا في الأسواق والمساهمة في التنمية الاقتصادية المستدامة
+                            
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="why-us" id="why-us">
+            <div class="container">
+                <div data-aos="fade-up" class="about-company-title">
+                    <i class="fa-solid fa-question"></i>
+                    <h1 data-i18n="WhyWeAreTheBest">لماذا نحن الأفضل</h1>
+                    <div class="outline"></div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" class="cards">
+
+                <div class="container">
+
+                    <div class="card">
+                        <i class="fa-solid fa-arrow-up-wide-short"></i>
+                        <h3 data-i18n="wideSelection">جودة عالية</h3>
+                        <p data-i18n="wideSelectionDesc">
+
+                            نحن في شركة اسمران نضمن توفير بيتومين ومشتقات نفطية بجودة لا تضاهى، باستخدام أحدث التقنيات والمعايير العالمية
+
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-clipboard-check"></i>
+                        <h3 data-i18n="UnmatchedQuality">ابتكار مستمر</h3>
+                        <p data-i18n="UnmatchedQualityDesc">
+                            نحن نستثمر باستمرار في البحث والتطوير لتحسين عملياتنا وتقديم منتجات مبتكرة تلبي تطلعات عملائنا
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-headset"></i>
+                        <h3 data-i18n="OutstandingCustomerService">علاقات مستدامة</h3>
+                        <p data-i18n="OutstandingCustomerServiceDesc">نهتم برضا عملائنا ونسعى دائمًا
+                            نحن نبني علاقات قائمة على الثقة والشفافية مع شركائنا وعملائنا، مما يساعدنا على تحقيق أهدافنا بنجاح مشترك    
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <i class="fa-solid fa-leaf"></i>
+                        <h3 data-i18n="CommitmentToSustainability">استدامة ومسؤولية</h3>
+                        <p data-i18n="CommitmentToSustainabilityDesc">
+
+                            نحن نلتزم بأعلى المعايير في الاستدامة البيئية والمسؤولية الاجتماعية، مساهمين في بناء مستقبل أفضل للمجتمعات التي نخدمها
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="customers-satisfaction">
+
+            <div class="container">
+                <div class="columns">
+
+                    <div class="col1">
+                        <p data-i18n="costumers">
+                            نضع رضا العملاء في مقدمة أولوياتنا، من خلال تقديم منتجات عالية الجودة وخدمات ممتازة تلبي توقعاتهم وتفوقها.
+                            اختيارك لشركة أسمران لتصنيع البيتومين ومشتقات النفط يعني أنك تختار الجودة، الموثوقية، والابتكار. نحن هنا لنكون شريكك الاستراتيجي في تحقيق النجاح والتفوق في مشاريعك
+                        </p>
+                    </div>
+
+                    <div class="col2">
+                        <img src="Images/6-01.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ending">
+
+            <div class="container">
+                <div data-aos="fade-up" class="about-company-title">
+                    <i class="fa-solid fa-hourglass-end"></i>
+                    <h1 data-i18n="conclusion">ختاماً</h1>
+                    <div class="outline"></div>
+                    <p data-aos="fade-up" data-i18n="conclusionDesc">
+                
+                        نحن في شركة اسمران نفخر بالتزامنا بالجودة والابتكار والاستدامة. نسعى دائماً لتحقيق أعلى مستويات الرضا لعملائنا وشركائنا، ونتطلع إلى النمو والتطور المستدام في صناعة البيتومين والمشتقات النفطية. شكراً لثقتكم بنا ونتطلع إلى تعزيز شراكتنا في المستقبل
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contact-us" id="contact-us">
+            <div class="container">
+
+                <div data-aos="fade-up" class="about-company-title">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <h1 data-i18n="contactUs">التواصل</h1>
+                    <div class="outline"></div>
+                </div>
+
+                <div class="columns">
+
+                    <div class="cols">
+
+                        <div class="col1">
+                            <div data-aos="fade-up" class="cards">
+
+                                <div class="card">
+                                    <span>
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <h4>00919776000</h4>
+                                    </span>
+                                </div>
+
+                                <div class="card">
+                                    <span><i class="fa-solid fa-phone"></i>
+                                        <h4>00919776000</h4>
+                                    </span>
+                                </div>
+
+                                <div class="card">
+                                    <span>
+                                        <i class="fa-solid fa-mobile-screen-button"></i>
+                                        <h4>00919776000</h4>
+                                    </span>
+                                </div>
+
+                                <!-- <div class="card">
+                                    <span> <i class="fa-solid fa-envelopes-bulk"></i>
+                                        <h4>PO Box: 6478</h4>
+                                    </span>
+                                </div> -->
+
+                                <div class="card">
+                                    <span style="display: flex; align-items: center;">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        <h3>
+                                            حي الاندلس طرابلس ليبيا
+                                        </h3>
+                                    </span>
+                                </div>
+
+                                <div class="card">
+                                    <a style="text-decoration: none; color: #f2f2f2;" href="mailto:info@blomnllc.com">
+                                        <span> <i class="fa-solid fa-envelope"></i>
+                                            <h4>contact@asmaranco.com</h4>
+                                    </a>
+                                    </span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col2">
+
+                        <div data-aos="fade-up" class="map">
+                            <p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53614.84822413408!2d13.173455718982328!3d32.87362399735623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13a8ecff0f26aec5%3A0x2a7779d4da88cc99!2z2K3ZiiDYp9mE2KfZhtiv2YTYs9iMINi32LHYp9io2YTYs9iMINmE2YrYqNmK2Kc!5e0!3m2!1sar!2str!4v1721038129706!5m2!1sar!2str" width="500" height="540" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="container">
+
+                <div class="cols">
+                    <div class="columns">
+                        <div class="col1">
+                            <img src="Images/Footer Logo-01.png" alt="logo">
+                            <p id="footerDesc" data-i18n="footerDesc">
+                                شركة اسمران لصناعة البيتومين رائدة في تصنيع وتسويق منتجات البيتومين. نلتزم بتقديم حلول مبتكرة للبنية التحتية والطرق مع مراعاة أعلى معايير الجودة والاستدامة. نقدم منتجات عالية الجودة وخدمات متميزة لتلبية احتياجات عملائنا في السوق المحلي والعالمي
+                            </p>
+                        </div>
+                        <div class="col2">
+                            <div class="links">
+                                <ul>
+                                    <li><a href="#activity" data-i18n="activity">النشاط</a></li>
+                                    <li><a href="#vision" data-i18n="vision">الرؤية</a></li>
+                                    <li><a href="#why-us" data-i18n="whyUs">حول الشركة</a></li>
+                                    <li><a href="#contact-us" data-i18n="contactUs">تواصل معنا</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="copyrights">
+                <p data-i18n="copyRights">
+                    Copyright © ASMARANCO - All rights reserved - 2024
+                </p>
+            </div>
+        </footer>
+
+        <!-- <div class="whatsapp">
+            <a target="_blank" href="https://wa.me/message/ZJTB7LXF7A34J1"><i class="fa-brands fa-whatsapp"></i></a>
+        </div> -->
+
+</body>
+
+<script src="translations.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+</html>
